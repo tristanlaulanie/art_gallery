@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  h1, h2, h3 {
+    font-style: italic;
+  }
+
+  button {
+    font-weight: bolder;
+  }
+
+  body {
+    margin: 2em 0;
+    width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    background-color: black;
+    border: 5px solid white;
+  }
+
+  header img {
+    position: relative;
+    height: 700px;
+    width: 100%;
+  }
+
+  #header_text {
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1em;
+    background-color: black;
+    padding: 2em;
+    border-radius: 10px;
+  }
+
+  header button,
+  #registration button,
+  #workshop_booking button,
+  #studio_membership button,
+  #art_to_sell button,
+  #form_button button {
+    padding: 0.7em 2em;
+    background-color: yellow;
+  }
+
+  header button:hover,
+  #registration button:hover,
+  #workshop_booking button:hover,
+  #studio_membership button:hover,
+  #art_to_sell button:hover,
+  #form_button button:hover {
+    background-color: rgb(190, 190, 0);
+    cursor: pointer;
+  }
+
+  #about_registration {
+    width: 1500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+  }
+
+  #about {
+    width: 50%;
+    padding: 10em 0;
+    background-color: rgba(183, 23, 23, 0.808);
+  }
+
+  .underline {
+    height: 2px;
+    width: 4em;
+    background-color: yellow;
+  }
+
+  #registration {
+    width: 50%;
+    padding: 10em 0;
+  }
+
+  #about,
+  #registration {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+  }
+
+  #workshops_events {
+    height: 75%;
+    width: 1500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+  }
+
+  #workshop_booking {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    align-items: flex-start;
+    padding: 0 2em;
+  }
+
+  #workshop_img {
+    width: 1000px;
+  }
+
+  #workshop_img img {
+    width: 99.1%;
+    height: auto;
+  }
+
+  #member_subscription {
+    width: 1500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  #watercolors_img img {
+    width: 1000px;
+  }
+
+  #studio_membership {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2em;
+    padding: 0 3em;
+  }
+
+  #art_to_sell {
+    color: black;
+    background-color: rgb(218, 207, 207);
+    width: 1490px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em 0;
+  }
+
+  #text_art_to_sell {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+  }
+
+  #text_art_to_sell p {
+    text-align: center;
+  }
+
+  #products_cards {
+    width: 1500px;
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    align-items: center;
+    justify-content: center;
+    padding: 3em 8em;
+  }
+
+  .product_card {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+  }
+
+  .product_card img {
+    width: 98%;
+  }
+
+  .product_card h3 {
+    font-size: 1.5em;
+  }
+
+  #hands_img {
+    position: relative;
+    height: 700px;
+    width: 1490px;
+  }
+
+  #card_student_testimony {
+    width: 600px;
+    background-color: red;
+    position: relative;
+    bottom: 8em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2em;
+    padding: 3em 2em;
+    left: 15%;
+    bottom: 10em;
+
+  }
+
+  i {
+    background-color: black;
+    padding: 0.5em;
+    font-size: 3em;
+  }
+
+  #newsletter_subscribe {
+    position: relative;
+    bottom: 2em;
+  }
+
+  #text_division {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 2em;
+    margin-bottom: 10em;
+  }
+
+  #form_division {
+    width: 900px;
+    padding: 3em;
+    border: 2px solid white;
+    margin: 5em;
+  }
+
+  .form_section {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+  }
+
+  #form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8em;
+  }
+
+  input {
+    padding: 1em;
+  }
+  
+  select {
+    padding: 0.6em;
+  }
+
+  textarea {
+    padding: 1em;
+  }
+
+  footer {
+  text-align: center;
+  padding: 3em;
+}
+
+
+  
