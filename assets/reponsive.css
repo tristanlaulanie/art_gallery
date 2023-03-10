@@ -1,0 +1,160 @@
+@media screen and (width < 501px) {
+
+    body {
+        width: 482px;
+        overflow-x: hidden;
+    }
+    header img {
+        width: 490px;
+    }
+
+    #header_text {
+        width: 50%;
+        top: 20%;
+        left: 10%;
+        height: 240px;
+    }
+
+    #header_text h1 {
+        font-size: 1.3em;
+    }
+
+    #header_text p {
+        font-size: 0.8em;
+        margin-left: 1em;
+    }
+
+    #header_text button {
+        width: 80%;
+        font-size: 0.8em;
+    }
+
+    #about_registration {
+        /* width: 480px; */
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        
+        text-align: left;
+    }
+
+    #about,
+    #registration {
+        width: 472px;
+        padding: 6em 0;
+    }
+
+    #about p {
+        text-align: center;
+        line-height: 26px;
+        padding: 1em;
+    }
+
+    #registration  {
+        margin-top: 2em;
+        margin-bottom: 4em;
+    }
+
+    #workshops_events {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    #workshop_booking {
+        margin-bottom: 8em;
+    }
+
+    #workshop_img {
+        width: 490px;;
+    }
+
+    #member_subscription {
+        width: 500px;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    #studio_membership {
+        margin: 5em 0;
+    }
+
+    #watercolors_img img {
+        height: 420px;
+        width: 472px;
+    }
+
+    #art_to_sell {
+        width: 500px;
+    }
+
+    #products_cards {
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #art_to_sell button {
+        margin-bottom: 2em;
+    }
+
+    #hands_img {
+        height: 460px;
+        width: 500px;
+    }
+
+    #card_student_testimony {
+        bottom: 5em;
+        left: 6.5em;
+        width: 300px;
+    }
+
+    #newsletter_subscribe {
+        margin-top: 3em;
+        width: 490px;
+    }
+
+    #newsletter_subscribe p {
+        padding: 0 2em;
+    }
+
+    #form_division {
+        width: 400px;
+        padding: 1.5em;
+        border: 2px solid white;
+        margin: 2.5em;
+    }
+
+    #form {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    input,
+    textarea {
+        width: 250px;
+    }
+
+    #message_area {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 2em;
+        
+    }
+
+    #form_button {
+        margin-left: 2em;
+    }
+
+    footer {
+        text-align: left;
+    }
+
+}

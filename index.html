@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets\style.css">
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/reponsive.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Art Gallery</title>
 </head>
@@ -13,11 +14,11 @@
     <header>
         <img src="assets\img\headerchart.jpg" alt="beautifull chart">
         <div id="header_text">
-        <h1>ART GALLERY</h1>
-        <p>Sample text. Lorem ipsum dolor sit amet, consectetur adipiscing elit <br>
-        nullam nunc justo sagittis suscipit ultrices. 
-        </p>
-        <button>REJOIGNEZ NOUS</button>
+            <h1>ART GALLERY</h1>
+            <p>Sample text. Lorem ipsum dolor sit amet, consectetur adipiscing elit <br>
+            nullam nunc justo sagittis suscipit ultrices. 
+            </p>
+            <button>REJOIGNEZ NOUS</button>
         </div>
     </header>
 
@@ -101,7 +102,7 @@
         <button>PLUS DE PRODUITS</button>
     </section>
 
-    <img src="assets\img\hands.jpg" alt="" id="hands_img">
+    <img id="hands_img" src="assets\img\hands.jpg" alt="" id="hands_img">
 
     <div id="card_student_testimony">
         <h2>De nos étudiants</h2>
@@ -138,20 +139,19 @@
                 </div>
 
                 <div class="form_container">
-                <form id="form" action="" method="">
-                    <p id="space_label">
+                    <form id="form" action="" method="">
+                        <p id="space_label">
                         <label id="name_label" for="nom">Votre nom </label><br>
                         <input id="text_input" type="text" id="prénom" name="prénom" placeholder="Martin"size="80">
-                    </p>
-                    <p id="space_label">
+                        </p>
+                        <p id="space_label">
                             <label 
                             id="email_label" 
                             for="e-mail">Votre e-mail </label><br>
                             <input id="text_input" type="text" id="nom" name="nom" placeholder="monadresse@mail.com" size="80">
                         <br>
-                    </p>
-                    </p>
-                    <p id="space_label">
+                        </p>
+                        <p id="space_label">
                             <label id="subject_label" for="nom">Quel est le sujet de votre message ? </label> <br>
                             <select id="text_input" name="matiere" id="matiere" placeholder="Sujet message">
                                 <option value="" disabled selected>Choisissez le sujet de votre message</option>
@@ -160,16 +160,18 @@
                                 <option value="sale_follow">Suivi de ma commande</option>
                                 <option value="other">Autre</option>
                             </select>
-                    </p>
-                    <label for="message">
+                        </p>
+                        <div id="message_area">
+                            <label for="message">
                                 Votre message 
-                    </label>
-                    <textarea id="text_input" rows="5" cols="30" placeholder="Bonjour, je vous contacte car..."></textarea>
-                </form>
-                        <br>
-                        <div id="form_button">
-                        <button>Envoyer mon message</button> 
+                            </label>
+                            <textarea id="text_input" rows="5" cols="30" placeholder="Bonjour, je vous  contacte car..."></textarea>
                         </div>
+                    </form>
+                    <br>
+                    <div id="form_button">
+                        <button>Envoyer mon message</button> 
+                    </div>
                 </div>
 
             </section>
